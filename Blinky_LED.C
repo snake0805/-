@@ -40,5 +40,5 @@ void blinkLED(void)
     IfxPort_togglePin(LED_D110);
 
     // 软件延时，数值越大闪烁越慢，可自行调整
-    softwareDelay(500000000);
+    softwareDelay(50000);
 }
